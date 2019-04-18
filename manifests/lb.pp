@@ -1,4 +1,4 @@
-class role::lb {
-  include profile::common
-  include profile::haproxy::prod
+class myrole::lb {
+  include myprofile::common
+  include myprofile::haproxy::prod
 }
