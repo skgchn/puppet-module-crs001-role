@@ -1,4 +1,4 @@
-class role::web {
+define role::web {
   include profile::common
   include profile::tomcat::prod
 }
